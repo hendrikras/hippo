@@ -1,0 +1,8 @@
+WARNING=DO NOT MODIFY THIS FILE IF YOU DON'T UNDERSTAND
+defaultDestination=
+defaultVariables=
+eclipse.preferences.version=1
+includeTeamPrivateFiles=false
+map|0=src/main/resources|@../target/tomcat6x/webapps/cms/WEB-INF/classes|,|,|,
+map|1=src/main/webapp|@../target/tomcat6x/webapps/cms|,|,|,
+useCurrentDateForDestinationFiles=false

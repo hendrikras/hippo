@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="home">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:component</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:referencecomponent" sv:type="String">
+    <sv:value>hst:pages/standard</sv:value>
+  </sv:property>
+  <sv:node sv:name="main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:node sv:name="content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencecomponent" sv:type="String">
+        <sv:value>hst:components/content</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>home.main.content</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="lists">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containercomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>org.hippoecm.hst.pagecomposer.builtin.components.StandardContainerComponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.UnorderedList</sv:value>
+      </sv:property>
+      <sv:node sv:name="list">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containeritemcomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentclassname" sv:type="String">
+          <sv:value>org.example.components.ListView</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:iconpath" sv:type="String">
+          <sv:value>images/catalog-list.png</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:label" sv:type="String">
+          <sv:value>List</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+          <sv:value>title</sv:value>
+          <sv:value>scope</sv:value>
+          <sv:value>docType</sv:value>
+          <sv:value>sortBy</sv:value>
+          <sv:value>sortOrder</sv:value>
+          <sv:value>pageSize</sv:value>
+          <sv:value>cssclass</sv:value>
+          <sv:value>bgcolor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+          <sv:value>List</sv:value>
+          <sv:value>/</sv:value>
+          <sv:value>myhippoproject:basedocument</sv:value>
+          <sv:value>myhippoproject:date</sv:value>
+          <sv:value>descending</sv:value>
+          <sv:value>3</sv:value>
+          <sv:value>lightgrey</sv:value>
+          <sv:value>#CCFFFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:template" sv:type="String">
+          <sv:value>standard.main.list</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.Item</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

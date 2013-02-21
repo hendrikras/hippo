@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hippo:translation">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippo:translation</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:language" sv:type="String">
+    <sv:value/>
+  </sv:property>
+  <sv:property sv:name="hippo:message" sv:type="String">
+    <sv:value>testchannel</sv:value>
+  </sv:property>
+</sv:node>
