@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="policy/sample05/src"/>
+	<classpathentry kind="src" path="policy/sample06/src"/>
+	<classpathentry kind="src" path="policy/sample04/src"/>
+	<classpathentry kind="src" path="policy/sample03/src"/>
+	<classpathentry kind="src" path="policy/sample02/src"/>
+	<classpathentry kind="src" path="policy/sample01/src"/>
+	<classpathentry kind="lib" path="C:/Users/hendrik.ras/Downloads/axis2-1.4.1-bin/axis2-1.4.1/lib/axiom-api-1.2.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hendrik.ras/Downloads/axis2-1.4.1-bin/axis2-1.4.1/lib/axiom-impl-1.2.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hendrik.ras/Downloads/axis2-1.4.1-bin/axis2-1.4.1/lib/axis2-kernel-1.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hendrik.ras/Downloads/axis2-1.4.1-bin/axis2-1.4.1/lib/neethi-2.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hendrik.ras/Downloads/rampart-dist-1.4-bin/rampart-1.4/lib/rampart-core-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hendrik.ras/Downloads/rampart-dist-1.4-bin/rampart-1.4/lib/rampart-policy-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hendrik.ras/Downloads/rampart-dist-1.4-bin/rampart-1.4/lib/rampart-trust-1.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
