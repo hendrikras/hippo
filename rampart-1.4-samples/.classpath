@@ -15,5 +15,6 @@
 	<classpathentry kind="lib" path="C:/Users/hendrik.ras/Downloads/rampart-dist-1.4-bin/rampart-1.4/lib/rampart-core-1.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/hendrik.ras/Downloads/rampart-dist-1.4-bin/rampart-1.4/lib/rampart-policy-1.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/hendrik.ras/Downloads/rampart-dist-1.4-bin/rampart-1.4/lib/rampart-trust-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hendrik.ras/Downloads/rampart-dist-1.4-bin/rampart-1.4/lib/wss4j-1.5.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
